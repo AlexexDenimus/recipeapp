@@ -1,0 +1,32 @@
+.recipe-card{
+    flex-basis: 31%;
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 0 0 2px 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    background-color: white;
+}
+
+.card-img{
+    flex-basis: 50%;
+    margin-top: 1%;
+   width: 80%;
+   height: 50%;
+
+}
+
+.card-content{
+    flex-basis: 50%;
+
+    align-self: flex-start;
+    padding-left: 10%;
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+}
